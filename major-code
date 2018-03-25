@@ -3,59 +3,47 @@
 <html>
 <head>
      <meta charset="utf-8" />
-     <title>Calculadora 1.0</title>
+     <title>Calculadora v1.1</title>
 </head>
 <body>
 
-<center><h1>Calculadora 1.0</h1></center>
-
+<center><h1>Calculadora v1.1</h1></center>
+	
 <script>
-
-	document.write("<center>")
-
-		var somax = 15;
-		var somay = 10;
-		document.write(somax)
-		document.write(" + ")
-		document.write(somay)
-		document.write(" = ")
-		document.write( somax + somay )
-
-		document.write("<br>")
-		document.write("<br>")
-
-		var subx = 25;
-		var suby = 10;
-		document.write(subx)
-		document.write(" - ")
-		document.write(suby)
-		document.write(" = ")
-		document.write( subx - suby )
-
-		document.write("<br>")
-		document.write("<br>")
-
-		var multx = 10;
-		var multy = 2;
-		document.write(multx)
-		document.write(" × ")
-		document.write(multy)
-		document.write(" = ")
-		document.write( multx * multy )
-
-		document.write("<br>")
-		document.write("<br>")
-
-		var divix = 10;
-		var diviy = 2;
-		document.write(divix)
-		document.write(" ÷ ")
-		document.write(diviy)
-		document.write(" = ")
-		document.write( divix / diviy )
-
-	document.write("</center>")
+	
+	document.write("<center>");
+	
+		var parcelaX = 15;
+		var parcelaY = 10;
+		var soma = parcelaX + parcelaY;
+		document.write(parcelaX + " + " + parcelaY + " = " + soma );
 		
+		document.write("<br>");
+		document.write("<br>");
+		
+		var minuendoX = 15;
+		var subtraendoX = 10;
+		var resto = minuendoX - subtraendoX;
+		document.write(minuendoX + " - " + subtraendoX + " = " + resto);
+		
+		document.write("<br>");
+		document.write("<br>");
+		
+		var fatorX = 10;
+		var fatorY = 2;
+		var produto = fatorX * fatorY;
+		document.write(fatorX + " × " + fatorY + " = " + produto);
+		
+		document.write("<br>");
+		document.write("<br>");
+		
+		var dividendoX = 10;
+		var divisorX = 2;
+		var quociente = dividendoX / divisorX;
+		document.write(dividendoX + " ÷ " + divisorX + " = " + quociente);
+		
+	document.write("</center")
+
 </script>
 
 
